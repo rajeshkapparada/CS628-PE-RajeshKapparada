@@ -1,0 +1,68 @@
+/* src/App.css */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+}
+
+.todo-list {
+  background-color: white;
+  padding: 22px;
+  border-radius: 8px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.todo:last-child {
+  border-bottom: none;
+}
+
+.todo button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.todo button:hover {
+  background-color: #c0392b;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 12px;
+  width: 70%;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+button[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 13px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
